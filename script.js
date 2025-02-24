@@ -14,8 +14,8 @@ const app = firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 
 // Google Login
-const loginButton = document.getElementById("login-button");
-const logoutButton = document.getElementById("logout-button");
+const loginButton = document.getElementById("loginBtn");
+const logoutButton = document.getElementById("loginBtn");
 const userInfo = document.getElementById("user-info");
 const userName = document.getElementById("user-name");
 
